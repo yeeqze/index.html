@@ -22,7 +22,7 @@
 > Site web officiel du projet **Meuz'MUN**, Modèle des Nations Unies organisé dans le département de la Meuse.
 
  **Site en ligne** :
--> [https://yeeqze.github.io/index.html/index.html](https://yeeqze.github.io/index.html/index.html)
+-> [https://yeeqze.github.io/MUN-website](https://yeeqze.github.io/MUN-website)
 
  **Repository GitHub** :
 -> [https://github.com/yeeqze/index.html](https://github.com/yeeqze/index.html)
