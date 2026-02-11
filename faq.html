@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - Meuz'MUN</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Meuz'<span>MUN</span></a>
+            <div class="mobile-menu" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="comites.html">Comités</a></li>
+                <li><a href="lycees.html">Lycées</a></li>
+                <li><a href="equipe.html">Équipe</a></li>
+                <li><a href="faq.html" class="active">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Hero -->
+    <div class="page-hero">
+        <h1>Questions fréquentes</h1>
+    </div>
+
+    <!-- FAQ Section -->
+    <section class="content-section" style="background: var(--light);">
+        <div class="container">
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        C'est quoi exactement un MUN ?
+                    </div>
+                    <div class="faq-answer">
+                        <p>Le MUN (Modélisation des Nations Unies) est une simulation de l'ONU lors de laquelle les élèves participent à un débat, simulant les échanges qui ont lieu aux Nations Unies.</p>
+                        <p>Les participants prennent le rôle d'ambassadeurs : ils représentent un pays ainsi que ses idées, tout en adoptant le langage et la tenue d'un diplomate. Le but est de faire découvrir le monde diplomatique aux lycéens et de favoriser la communication entre les élèves.</p>
+                        <p>Ces échanges permettent également d'améliorer son niveau en anglais, car les débats se déroulent en partie dans cette langue.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        Comment se préparer pour participer au MUN ?
+                    </div>
+                    <div class="faq-answer">
+                        <p>Pour bien se préparer, plusieurs étapes sont essentielles :</p>
+                        <ul>
+                            <li><strong>Documentation sur votre pays :</strong> Effectuez des recherches approfondies sur le pays que vous représentez - son histoire, sa culture, sa position politique internationale</li>
+                            <li><strong>Concertation avec votre binôme :</strong> Travaillez en équipe pour élaborer une stratégie cohérente</li>
+                            <li><strong>Comprendre les enjeux du pays :</strong> Identifiez les intérêts et priorités de votre pays sur la problématique du comité</li>
+                            <li><strong>Connaître la situation actuelle :</strong> Renseignez-vous sur la position de votre pays dans les questions internationales liées à la problématique</li>
+                            <li><strong>Chercher des solutions :</strong> Réfléchissez aux propositions de résolutions que votre pays pourrait mettre en place pour répondre à la problématique du comité</li>
+                        </ul>
+                        <p>Un travail particulier sera réalisé sur la formalisation des discours pour bien maîtriser le protocole diplomatique.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        Comment se déroule une session de débat ?
+                    </div>
+                    <div class="faq-answer">
+                        <p>Une session MUN se déroule comme un véritable débat aux Nations Unies :</p>
+                        <ul>
+                            <li><strong>Ouverture de session :</strong> Les Chairs (présidents de comité) présentent la problématique et le contexte</li>
+                            <li><strong>Prise de parole initiale :</strong> Chaque délégation est appelée à tour de rôle pour présenter la position de son pays (environ 2 minutes)</li>
+                            <li><strong>Phase de débat :</strong> Les délégués peuvent prendre la parole pour exprimer leur position, poser des questions ou répondre aux autres pays</li>
+                            <li><strong>Phase de lobbying :</strong> Les délégués échangent entre eux de manière informelle pour négocier et construire des alliances</li>
+                            <li><strong>Rédaction de résolutions :</strong> Les délégués travaillent ensemble pour proposer des solutions concrètes</li>
+                            <li><strong>Vote des résolutions :</strong> Les résolutions sont présentées au comité et votées</li>
+                        </ul>
+                        <p>Les Chairs président la session et veillent au bon déroulement des échanges selon le protocole diplomatique.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        Les débats sont-ils difficiles ?
+                    </div>
+                    <div class="faq-answer">
+                        <p>Non, pas du tout ! Le Meuz'MUN est conçu pour être accessible à tous les lycéens, quel que soit leur niveau.</p>
+                        <p>Des sessions de préparation sont organisées avant l'événement pour vous familiariser avec :</p>
+                        <ul>
+                            <li>Les règles de procédure</li>
+                            <li>Le protocole diplomatique</li>
+                            <li>Les techniques de prise de parole</li>
+                            <li>La méthode de recherche sur votre pays</li>
+                        </ul>
+                        <p>L'équipe organisatrice et les Chairs sont là pour vous guider tout au long de l'événement. L'important est de participer, d'apprendre et de s'amuser !</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        Faut-il parler anglais couramment ?
+                    </div>
+                    <div class="faq-answer">
+                        <p>Non, pas besoin d'être bilingue ! Le Meuz'MUN propose des comités en français ET en anglais pour s'adapter à tous les niveaux.</p>
+                        <p><strong>Comités en français :</strong></p>
+                        <ul>
+                            <li>HLPF (proposé par Bar-le-Duc)</li>
+                            <li>UNDRR (proposé par Verdun)</li>
+                        </ul>
+                        <p><strong>Comités en anglais :</strong></p>
+                        <ul>
+                            <li>FAO (proposé par Stenay)</li>
+                            <li>UNESCO (proposé par Commercy)</li>
+                        </ul>
+                        <p>Pour les comités en anglais, un niveau intermédiaire suffit amplement. L'objectif est aussi de progresser en anglais dans un contexte stimulant et bienveillant. N'oubliez pas que tout le monde est là pour apprendre !</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        Quel rôle vais-je avoir pendant l'événement ?
+                    </div>
+                    <div class="faq-answer">
+                        <p>La plupart des participants seront <strong>délégués</strong> - c'est-à-dire ambassadeurs représentant un pays.</p>
+                        <p>En tant que délégué, vous travaillerez en binôme pour :</p>
+                        <ul>
+                            <li>Représenter votre pays dans votre comité</li>
+                            <li>Défendre les positions et intérêts de votre pays</li>
+                            <li>Négocier avec les autres délégations</li>
+                            <li>Proposer et voter des résolutions</li>
+                        </ul>
+                        <p><strong>D'autres rôles sont également possibles :</strong></p>
+                        <ul>
+                            <li><strong>Chairs :</strong> Président(e)s de comité qui dirigent les débats</li>
+                            <li><strong>Secrétaire Général :</strong> Organise les cérémonies d'ouverture et de clôture</li>
+                        </ul>
+                        <p>Ces rôles spéciaux demandent plus de préparation et sont généralement attribués aux élèves les plus investis dans l'organisation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact CTA -->
+    <section class="content-section" style="background: linear-gradient(135deg, var(--primary-blue), var(--dark)); color: var(--white); text-align: center;">
+        <div class="container">
+            <h2 class="section-title" style="color: var(--white);">D'autres questions ?</h2>
+            <p style="font-size: 1.2rem; margin-bottom: 2rem;">N'hésitez pas à nous contacter, nous serons ravis de vous répondre !</p>
+            <a href="contact.html" class="cta-button">Nous contacter</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Meuz'MUN - Tous droits réservés</p>
+            <p style="margin-top: 0.5rem;">Modèle des Nations Unies - Département Meusien</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

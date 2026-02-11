@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'Équipe - Meuz'MUN</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Meuz'<span>MUN</span></a>
+            <div class="mobile-menu" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="comites.html">Comités</a></li>
+                <li><a href="lycees.html">Lycées</a></li>
+                <li><a href="equipe.html" class="active">Équipe</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Hero -->
+    <div class="page-hero">
+        <h1>L'équipe organisatrice</h1>
+    </div>
+
+    <!-- Team Section -->
+    <section class="content-section" style="background: var(--light);">
+        <div class="container">
+            <p style="text-align: center; font-size: 1.2rem; color: var(--text-light); margin-bottom: 4rem; max-width: 800px; margin-left: auto; margin-right: auto;">
+                Une équipe dévouée de lycéens passionnés qui travaillent ensemble pour faire de cet événement une réussite.
+            </p>
+
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="team-avatar">👤</div>
+                    <h3>Nom Prénom</h3>
+                    <p>Secrétaire Général(e)</p>
+                </div>
+                <div class="team-member">
+                    <div class="team-avatar">👤</div>
+                    <h3>Nom Prénom</h3>
+                    <p>Secrétaire Général(e) Adjoint(e)</p>
+                </div>
+                <div class="team-member">
+                    <div class="team-avatar">👤</div>
+                    <h3>Nom Prénom</h3>
+                    <p>Responsable Communication</p>
+                </div>
+                <div class="team-member">
+                    <div class="team-avatar">👤</div>
+                    <h3>Nom Prénom</h3>
+                    <p>Responsable Logistique</p>
+                </div>
+                <div class="team-member">
+                    <div class="team-avatar">👤</div>
+                    <h3>Nom Prénom</h3>
+                    <p>Chair HLPF</p>
+                </div>
+                <div class="team-member">
+                    <div class="team-avatar">👤</div>
+                    <h3>Nom Prénom</h3>
+                    <p>Chair UNDRR</p>
+                </div>
+                <div class="team-member">
+                    <div class="team-avatar">👤</div>
+                    <h3>Nom Prénom</h3>
+                    <p>Chair FAO</p>
+                </div>
+                <div class="team-member">
+                    <div class="team-avatar">👤</div>
+                    <h3>Nom Prénom</h3>
+                    <p>Chair UNESCO</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Roles Info -->
+    <section class="content-section">
+        <div class="container">
+            <h2 class="section-title">Les différents rôles</h2>
+            
+            <div style="max-width: 900px; margin: 0 auto;">
+                <div style="background: var(--light); padding: 2rem; border-radius: 15px; margin-bottom: 2rem;">
+                    <h3 style="font-family: 'Cormorant Garamond', serif; font-size: 1.8rem; color: var(--primary-blue); margin-bottom: 1rem;">Secrétaire général et député (2 personnes)</h3>
+                    <p style="color: var(--text-light); line-height: 1.8;">Ce sont les maîtres de cérémonie. Ils sont chargés de réaliser et organiser les cérémonies d'ouverture et de clôture. Ils devront pour cela mener des recherches sur la problématique et avoir une idée du positionnement de chaque pays.</p>
+                </div>
+
+                <div style="background: var(--light); padding: 2rem; border-radius: 15px;">
+                    <h3 style="font-family: 'Cormorant Garamond', serif; font-size: 1.8rem; color: var(--primary-blue); margin-bottom: 1rem;">Les Chairs (2 binômes par comité)</h3>
+                    <p style="color: var(--text-light); line-height: 1.8; margin-bottom: 1rem;">Ce sont les responsables de comité. Ils commenceront par rappeler le fonctionnement des comités (les différentes phases, l'importance de la formalisation, la façon de prendre la parole).</p>
+                    <p style="color: var(--text-light); line-height: 1.8; margin-bottom: 1rem;">Puis ils présenteront rapidement la problématique du comité en donnant quelques éléments de contextualisation et d'enjeux.</p>
+                    <p style="color: var(--text-light); line-height: 1.8;">Ensuite, ils appelleront les délégués pays par pays pour qu'ils viennent prononcer un court discours (environ 2min) sur le positionnement du pays sur la problématique (avec des pistes de résolution).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Meuz'MUN - Tous droits réservés</p>
+            <p style="margin-top: 0.5rem;">Modèle des Nations Unies - Département Meusien</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

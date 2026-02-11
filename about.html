@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>À propos - Meuz'MUN</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Meuz'<span>MUN</span></a>
+            <div class="mobile-menu" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html" class="active">À propos</a></li>
+                <li><a href="comites.html">Comités</a></li>
+                <li><a href="lycees.html">Lycées</a></li>
+                <li><a href="equipe.html">Équipe</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Hero -->
+    <div class="page-hero">
+        <h1>À propos du projet</h1>
+    </div>
+
+    <!-- About Content -->
+    <section class="content-section" style="background: var(--light);">
+        <div class="container">
+            <div class="content-grid">
+                <div class="content-text">
+                    <h3>Un projet diplomatique départemental</h3>
+                    <p>Meuz'MUN est un projet ayant pour ambition de mettre en place le dispositif MUN à l'échelle du département meusien. Le MUN (Modélisation des Nations Unies) est une simulation de l'ONU lors de laquelle les élèves vont participer à un débat, simulant les échanges qui ont lieu aux Nations Unies.</p>
+                    <p>Le but est de faire découvrir le monde diplomatique aux lycéens qui y participent. Ces échanges favorisent également la communication entre les élèves et permettent d'améliorer son niveau en anglais (les débats se déroulant en partie dans cette langue).</p>
+                </div>
+                <div class="content-image">
+                    <span style="position: relative; z-index: 1;">🌐</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="container">
+            <h2 class="section-title">Le rôle d'ambassadeur</h2>
+            <div class="content-text" style="max-width: 900px; margin: 0 auto;">
+                <p>Les élèves prennent le rôle d'ambassadeur : c'est-à-dire qu'ils représentent un pays ainsi que ses idées, tout en adoptant le langage et la tenue d'un diplomate. Pour pouvoir bien accomplir ce rôle, les participants effectuent des recherches sur leurs pays afin de comprendre les enjeux actuels et leur position dans les questions internationales.</p>
+                <p>Ainsi, ils essayent de répondre et de résoudre les crises hypothétiques qui y sont simulées.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section" style="background: linear-gradient(135deg, var(--primary-blue), var(--dark)); color: var(--white); text-align: center;">
+        <div class="container">
+            <h2 class="section-title" style="color: var(--white);">Problématique de la journée</h2>
+            <p style="font-size: 1.5rem; font-style: italic; color: var(--accent-gold); max-width: 900px; margin: 0 auto; line-height: 1.8;">
+                "Protéger la biodiversité et les ressources naturelles face à la croissance démographique et économique"
+            </p>
+        </div>
+    </section>
+
+    <!-- Event Details -->
+    <section class="content-section" style="background: var(--light);">
+        <div class="container">
+            <h2 class="section-title">Détails de l'événement</h2>
+            <div class="event-grid">
+                <div class="event-card">
+                    <div class="event-card-icon">📅</div>
+                    <h3>Date</h3>
+                    <p>1er et 2 avril 2026<br>(rencontre sur deux jours)</p>
+                </div>
+                <div class="event-card">
+                    <div class="event-card-icon">📍</div>
+                    <h3>Lieu</h3>
+                    <p>Département de la Meuse</p>
+                </div>
+                <div class="event-card">
+                    <div class="event-card-icon">👥</div>
+                    <h3>Participants</h3>
+                    <p>Lycéens de Bar-le-Duc, Verdun, Stenay et Commercy</p>
+                </div>
+                <div class="event-card">
+                    <div class="event-card-icon">🎯</div>
+                    <h3>Format</h3>
+                    <p>4 comités - Débats en français et en anglais</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Meuz'MUN - Tous droits réservés</p>
+            <p style="margin-top: 0.5rem;">Modèle des Nations Unies - Département Meusien</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
